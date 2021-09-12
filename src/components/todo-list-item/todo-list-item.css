@@ -1,6 +1,5 @@
 .todo-list-item {
 	font-size: 1.25rem;
-	display: flex;
 }
 
 .todo-list-item button {
@@ -13,13 +12,12 @@
 	line-height: 35px;
 	cursor: pointer;
 	user-select: none;
-	margin-right: 1rem;
-	width: 100%;
 }
 
 .todo-list-item.done .todo-list-item-label {
 	text-decoration: line-through;
 }
+
 
 .todo-list-item.important .todo-list-item-label {
 	font-weight: bold;
